@@ -1,10 +1,10 @@
-import React, { Fragment, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import Spinner from '../layout/Spinner';
-import ProfileTop from './ProfileTop';
-import { getProfileById } from '../../actions/profile';
+import React, { Fragment, useEffect } from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import Spinner from "../layout/Spinner";
+import ProfileTop from "./ProfileTop";
+import { getProfileById } from "../../actions/profile";
 
 const Profile = ({
   getProfileById,
@@ -31,12 +31,11 @@ const Profile = ({
                 Edit Profile
               </Link>
             )}
-            <div className="profile-grid my1">
-              <ProfileTop profile={profile} />
-            </div>
+          <div className="profile-grid my1">
+            <ProfileTop profile={profile} />
+          </div>
         </Fragment>
       )}
-
     </Fragment>
   );
 };
@@ -47,7 +46,7 @@ Profile.propTypes = {
   auth: PropTypes.object.isRequired,
 };
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   profile: state.profile,
   auth: state.auth,
 });
