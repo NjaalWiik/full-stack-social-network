@@ -92,7 +92,7 @@ $ npm run dev
 
 ## Team
 
-> Contributors/People
+> Contributors:
 
 | <a href="https://www.linkedin.com/in/njaal-wiik/" target="_blank">**Njål**</a>                                            |
 | :---------------------------------------------------------------------------------------------------------------------------: | 
