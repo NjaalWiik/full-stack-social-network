@@ -23,7 +23,7 @@
 
 ### Step 1
 
-> From root folder
+From root folder:
 
 ```shell
 $ npm install
@@ -31,7 +31,7 @@ $ npm install
 
 ### Step 2
 
-> Install in client folder
+Install in client folder:
 
 ```shell
 $ cd client
@@ -44,7 +44,7 @@ $ npm install
 
 ### Step 4
 
-> In the root folder:
+In the root folder:
 
 ```shell
 $ npm run dev
