@@ -1,11 +1,12 @@
-# Social network for developers (with public profiles for recruiters)
+# Dev Dogs: a social network for developers (with public profiles for recruiters)
 
 > Fullstack project using MongoDB, Express, React and Node written with ES6+ syntax. (MERN)
->> ...As well as BCrypt.js, JsonWebToken, Mongoose & Redux.
->>> ...And moment, uuid, thunk, axios, gravatar, express-validator & Request.
+>
+> > ...As well as BCrypt.js, JsonWebToken, Mongoose & Redux.
+> >
+> > > ...And moment, uuid, thunk, axios, gravatar, express-validator & Request.
 
-
-![Alt text](./readme/showcase.png?raw=true 'showcase')
+![Alt text](./readme/showcase.png?raw=true "showcase")
 
 ---
 
@@ -53,6 +54,7 @@ $ npm run dev
 ---
 
 ## Features
+
 - An extensive backend API with Node.js & Express
 
 - Protected routes/endpoints with JWT (JSON Web Tokens)
@@ -94,10 +96,10 @@ $ npm run dev
 
 > Contributors:
 
-| <a href="https://www.linkedin.com/in/njaal-wiik/" target="_blank">**Njål**</a>                                            |
-| :---------------------------------------------------------------------------------------------------------------------------: | 
+|                      <a href="https://www.linkedin.com/in/njaal-wiik/" target="_blank">**Njål**</a>                       |
+| :-----------------------------------------------------------------------------------------------------------------------: |
 | [![FVCproductions](https://avatars1.githubusercontent.com/u/44666640?v=3&s=200)](https://www.linkedin.com/in/njaal-wiik/) |
-| <a href="https://github.com/NjaalWiik" target="_blank">`github.com/NjaalWiik`</a>                                         |
+|                     <a href="https://github.com/NjaalWiik" target="_blank">`github.com/NjaalWiik`</a>                     |
 
 ---
 
