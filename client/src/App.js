@@ -5,6 +5,7 @@ import Landing from './components/layout/Landing';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 import Alert from './components/layout/Alert';
+<<<<<<< HEAD
 import Dashboard from './components/dashboard/Dashboard';
 import CreateProfile from './components/profile-forms/CreateProfile';
 import EditProfile from './components/profile-forms/EditProfile';
@@ -15,6 +16,8 @@ import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
 import PrivateRoute from './components/routing/PrivateRoute';
+=======
+>>>>>>> parent of 9a2045a... Created a protected route, get current profile state, setup dashboard route, CreateProfile component
 
 //  Redux
 import setAuthToken from './utils/setAuthToken';
@@ -42,6 +45,7 @@ const App = () => {
           <section className='container'>
             <Alert />
             <Switch>
+<<<<<<< HEAD
               <Route exact path='/register' component={Register} />
               <Route exact path='/login' component={Login} />
               <Route exact path='/profiles' component={Profiles} />
@@ -69,6 +73,10 @@ const App = () => {
               />
               <PrivateRoute exact path='/posts' component={Posts} />
               <PrivateRoute exact path='/posts/:id' component={Post} />
+=======
+              <Route exact path="/register" component={Register} />
+              <Route exact path="/login" component={Login} />
+>>>>>>> parent of 9a2045a... Created a protected route, get current profile state, setup dashboard route, CreateProfile component
             </Switch>
           </section>
         </Fragment>

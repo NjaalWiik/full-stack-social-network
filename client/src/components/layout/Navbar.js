@@ -8,6 +8,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
       <li>
+<<<<<<< HEAD
         <Link to='/profiles'>Developers</Link>
       </li>
       <li>
@@ -23,6 +24,11 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <a onClick={logout} href='/'>
           <i className='fas fa-sign-out-alt'></i>{' '}
           <span className='hide-sm'>Logout</span>
+=======
+        <a onClick={logout} href="/">
+          <i className="fas fa-sign-out-alt"></i>{' '}
+          <span className="hide-sm">Logout</span>
+>>>>>>> parent of 9a2045a... Created a protected route, get current profile state, setup dashboard route, CreateProfile component
         </a>
       </li>
     </ul>
