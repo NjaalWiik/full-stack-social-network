@@ -6,8 +6,6 @@
 > >
 > > > ...And moment, uuid, thunk, axios, gravatar, express-validator & Request.
 
-![Alt text](./readme/showcase.png?raw=true "showcase")
-
 ---
 
 ## Table of Contents
